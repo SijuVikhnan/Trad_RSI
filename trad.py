@@ -57,11 +57,11 @@ if uploaded_file:
         
         # Timeframes configuration
         timeframes = {
-            "1H": {"interval": "1h", "period": "2mo"},
-            "3H": {"interval": "1h", "period": "3mo"},
-            "1D": {"interval": "1d", "period": "6mo"}, # Reduced period to save memory and speed
+            "1M": {"interval": "1mo", "period": "5y"},
             "1W": {"interval": "1wk", "period": "2y"},
-            "1M": {"interval": "1mo", "period": "5y"}
+            "1D": {"interval": "1d", "period": "6mo"},
+            "3H": {"interval": "1h", "period": "3mo"},
+            "1H": {"interval": "1h", "period": "2mo"}
         }
         
         results = []
