@@ -1,2 +1,2 @@
 # Trad_RSI
-RSI based analysis
+This is a RSI based trade generator for positonal players only.
